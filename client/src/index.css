@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* --------------------home---------------------- */
+.home {
+  background: url(/images/home.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+/* --------------------dining---------------------- */
+.dining {
+  background: url(/images/dining.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.eat:hover,
+.drink:hover {
+  cursor: pointer;
+  border-bottom: solid 2px #fff;
+}
+/* ------------------------ant layout------------------------ */
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: #bbb;
+  color: black;
+}
+
+/* --------------------ant table-------------------- */
+
+.ant-table-cell-row-hover {
+  background-color: #e4e4e4 !important;
+}
+/* ----------------------------------------------- */
+
+input[type="radio"]:checked + label {
+  background-color: #f87373;
+}
+
+.ant-modal-content {
+  border-radius: 0 !important;
+}
+/* ----------------------------------------------- */
+.admin-btn {
+  background: #c0392b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e44ad,
+    #c0392b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e44ad,
+    #c0392b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.admin-btn:hover {
+  background: #c0392b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #8e44ad,
+    #c0392b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #8e44ad,
+    #c0392b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* ---------------ant input------------ */
+.ant-input {
+  width: 12rem;
+}
+
+.ant-modal-close-x {
+  display: none !important;
+}
